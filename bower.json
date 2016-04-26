@@ -1,0 +1,24 @@
+{
+  "name": "styleguide",
+  "description": "",
+  "main": "",
+  "authors": [
+    "jrah <jjames.home@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "^2.2.12",
+    "sass-mq": "^3.2.9",
+    "normalize-scss": "^3.0.3"
+  }
+}

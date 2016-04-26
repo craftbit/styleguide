@@ -1,0 +1,72 @@
+{% extends '_layouts/base.nunjucks' %}
+
+{% import "_modules/link/link.nunjucks" as link %}
+{% import "_modules/colours/colours.nunjucks" as link %}
+
+{% block content %}
+  <header>
+    <h1 class="logo container">
+      <a href="#">UI Guide</a>
+    </h1>
+  </header>
+  <main class="container">
+    <div class="colours">
+      <h2>Colours</h2>
+      <h3>Brand Colours</h3>
+      <div class="colours-brand">
+        <div class="colour-type--primary"><code class="var">$color-primary</code></div>
+        <div class="colour-type--accent"><code class="var">$color-accent</code></div>
+        <div class="colour-type--body"><code class="var">$color-text</code></div>
+        <div class="colour-type--background"><code class="var">$color-background</code></div>
+      </div>
+      <h3>Standard Colours</h3>
+        <div class="colours-standard">
+          <div class="colour-type--white"><code class="var">$white</code></div>
+          <div class="colour-type--black"><code class="var">$black</code></div>
+          <div class="colour-type--grey"><code class="var">$grey</code></div>
+          <div class="colour-type--red"><code class="var">$red</code></div>
+          <div class="colour-type--green"><code class="var">$green</code></div>
+          <div class="colour-type--blue"><code class="var">$blue</code></div>
+        </div>
+    </div>
+    <div class="typography">
+    <h2>Typography</h2>
+      <div class="typography-standard">
+        <p>
+          We use <code>sans-serif</code> for headings and body text, however <code>serif</code> is used for special emphasis.
+        </p>
+        <ul>
+          <li>Base font-size: <code>1em</code></li>
+          <li>Line-height:<code>1.5em</code></li>
+          <li>Serif font-family: <code>Volkorn</code></li>
+          <li>Sans-serif font-family: <code>Open Sans</code></li>
+        </ul>
+        <blockquote class="example">
+          <h3 class="sans-serif">Heading in sans-serif</h3>
+          <p class="sans-serif">
+            Paragraph in sans-serif. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <h3 class="serif">Heading in serif</h3>
+          <p class="serif">
+            Paragraph in serif. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </blockquote>
+      </div>
+    </div>
+    <div class="media-queries">
+      <h2>Breakpoints</h2>
+      <ul>
+        <li>Mobile: <code>24em</code></li>
+        <li>Tablet: <code>48em</code></li>
+        <li>Desktop: <code>60em</code></li>
+        <li>Wide:    <code>67em</code></li>
+      </ul>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+    &copy; James Home
+    </div>
+  </footer>
+<code class="version">v0.0.1</code>
+{% endblock %}

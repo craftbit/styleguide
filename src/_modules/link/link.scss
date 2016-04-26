@@ -1,0 +1,13 @@
+// link styles
+
+a {
+  &:link,
+  &:visited,
+  &:active {
+    color: $color-text;
+  }
+
+  &:hover {
+    color: $color-primary;
+  }
+}
