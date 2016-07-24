@@ -6,9 +6,9 @@ $green: #b3de62;
 $blue: #3b9bfb;
 $grey: #f3f3f3;
 
-$color-primary: #40c9cc;
+$color-primary: #F5A623;
 $color-text: lighten($black, 3%);
-$color-background: darken($white, 0.5%);
+$color-background: $white;
 $color-accent: saturate($color-primary, 20%);
 
 $font-family-serif: 'Vollkorn', serif;
